@@ -34,12 +34,16 @@ $(function () {
 
 createPlatform(200,  650, 200, 15)
 createPlatform(500, 550, 100, 20)
-createPlatform(700, 500, 60, 150)
-createPlatform(400, 390, 100, 15)
-
+createPlatform(300, 470, 60, 13)
+createPlatform(500, 390, 70, 14)
+createPlatform(600, 290, 33, 12)
+createPlatform(300, 280, 45, 13)
+createPlatform(900, 310, 19, 10)
+createPlatform(1100, 257, 18, 9)
+createPlatform(800, 449, 44, 20)
 
     // TODO 3 - Create Collectables
-
+createCollectable(steve, max, dimond, grace, kennidi)
 
 
     
