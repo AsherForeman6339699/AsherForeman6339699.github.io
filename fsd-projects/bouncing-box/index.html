@@ -86,23 +86,12 @@ var speed = 10
         function update() {
  positionX = positionX + speed; 
 moveBoxTo(positionX); 
+if (positionX > boardWidth)
+speed = speed *-1
+if(positionX < 0)
+speed *= -1
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-          
-        }
 
         /**
          * This Function will be called each time the box is clicked.
@@ -113,10 +102,11 @@ moveBoxTo(positionX);
          */
         function handleBoxClick() {
 positionX = 0;
-changeBoxText(0);
 changeBoxText(points);
 points = points + 1
-speed = speed + 3
+speed = 3 * points + 10;
+
+
 
 
 
