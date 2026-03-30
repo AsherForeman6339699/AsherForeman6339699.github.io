@@ -113,6 +113,16 @@ for (var i = 0; i < circles.length; i++) {
 
 }
 
+game.checkCirclePosition(circles[ 0 ])
+
+game.checkCirclePosition(circles[ 1 ])
+
+game.checkCirclePosition(circles[ 2 ])
+
+game.checkCirclePosition(circles[ 3 ])
+
+game.checkCirclePosition(circles[ 4 ])
+
 
 
             
